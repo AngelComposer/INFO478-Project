@@ -12,7 +12,8 @@ https://www.sciencedirect.com/science/article/abs/pii/S0735109721053821?via%3Dih
 Understand the impacts social detriments can have on health and cardiovascular disease and strokes
 https://www.sciencedirect.com/science/article/abs/pii/104727979190005W?via%3Dihub  
 Understand the biggest factors that lead to cardiovascular disease  
-https://www.mayoclinicproceedings.org/pb/assets/raw/Health%20Advance/journals/jmcp/news2.pdf
+https://www.mayoclinicproceedings.org/pb/assets/raw/Health%20Advance/journals/jmcp/news2.pdf  
+With the practice of cardiac rehabilitation, educational awareness, and promotion of lifestyle counseling and exercise ,we see its association with decreased mortality, cardiac mortality, and rehospitalizations. However, only 20-30% of individuals participate in cardiac rehabilitation within the US.
 
 **What is the dataset you'll be working with?  Please include background on who collected the data, where you accessed it, and any additional information we should know about how this data came to be. You must find at least two data sources at this stage.**   
 The data we will be using will be from the CDC website that we found.  

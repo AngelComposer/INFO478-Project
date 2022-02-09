@@ -8,8 +8,10 @@ By: Justin, Vivian, Max, Minttu
 The purpose of this research project is to analyze the correlating factors relating to heart attacks.
 
 **What other research has been done in this area? (include 3+ links to related works, as well as a summary of what that work has discovered.)**
-https://www.sciencedirect.com/science/article/abs/pii/S0735109721053821?via%3Dihub
-https://www.sciencedirect.com/science/article/abs/pii/104727979190005W?via%3Dihub
+https://www.sciencedirect.com/science/article/abs/pii/S0735109721053821?via%3Dihub  
+Understand the impacts social detriments can have on health and cardiovascular disease and strokes
+https://www.sciencedirect.com/science/article/abs/pii/104727979190005W?via%3Dihub  
+Understand the biggest factors that lead to cardiovascular disease  
 https://www.mayoclinicproceedings.org/pb/assets/raw/Health%20Advance/journals/jmcp/news2.pdf
 
 **What is the dataset you'll be working with?  Please include background on who collected the data, where you accessed it, and any additional information we should know about how this data came to be. You must find at least two data sources at this stage.** 

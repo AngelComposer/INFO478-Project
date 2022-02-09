@@ -15,7 +15,7 @@ Understand the biggest factors that lead to cardiovascular disease
 https://www.mayoclinicproceedings.org/pb/assets/raw/Health%20Advance/journals/jmcp/news2.pdf
 
 **What is the dataset you'll be working with?  Please include background on who collected the data, where you accessed it, and any additional information we should know about how this data came to be. You must find at least two data sources at this stage.**   
-The data we will be using will be from the CDC website that we found.
+The data we will be using will be from the CDC website that we found.  
 https://catalog.data.gov/dataset/national-health-and-nutrition-examination-survey-nhanes-national-cardiovascular-disease-su-00a88  
 https://www.cdc.gov/dhdsp/maps/quick-maps/index.htm?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fdhdsp%2Fmaps%2Fnational_maps%2Findex.htm  
 

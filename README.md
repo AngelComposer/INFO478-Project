@@ -8,6 +8,7 @@ By: Justin, Vivian, Max, Minttu
 The purpose of this research project is to analyze the correlating factors relating to heart attacks.
 
 **What other research has been done in this area? (include 3+ links to related works, as well as a summary of what that work has discovered.)**
+
 [Race, Ethnicity, Hypertension, and Heart Disease](https://www.sciencedirect.com/science/article/abs/pii/S0735109721053821?via%3Dihub)
 * Hypertension control remains a persistent problem for public health
 * This study revealed higher prevalence of hypertension control among specific groups of racial or ethnic minority groups, especially African American adults
@@ -25,8 +26,10 @@ The purpose of this research project is to analyze the correlating factors relat
 * If cardiac rehabilitation can increase, quality of life can be improved
 * With the practice of cardiac rehabilitation, educational awareness, and promotion of lifestyle counseling and exercise, we see its association with decreased mortality, cardiac mortality, and rehospitalizations. However, only 20-30% of individuals participate in cardiac rehabilitation within the US.
 
-**What is the dataset you'll be working with?  Please include background on who collected the data, where you accessed it, and any additional information we should know about how this data came to be. You must find at least two data sources at this stage.**     
-The data we will be using will be from the CDC website that we found.  
+**What is the dataset you'll be working with?  Please include background on who collected the data, where you accessed it, and any additional information we should know about how this data came to be. You must find at least two data sources at this stage.**
+
+The data we will be using will be from the CDC website that we found.
+
 [National Health and Nutrition Examination Survey (NHANES) - National Cardiovascular Disease Surveillance System](https://catalog.data.gov/dataset/national-health-and-nutrition-examination-survey-nhanes-national-cardiovascular-disease-su-00a88)
 * Variables in this dataset that could be useful:
   + Race

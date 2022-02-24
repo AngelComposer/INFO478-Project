@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Heart Disease
 
-When thinking about the potential causes of heart disease, people must understand that there are a few common factors that will lead to it. One of those are hereditary and another has to do with choices made by at the personal level, such as that of dietary choices. One of the points of data that we had 
+When thinking about the potential causes of heart disease, people must understand that there are a few common factors that will lead to it. One of those are hereditary and another has to do with choices made by at the personal level, such as that of dietary choices. One of the points of data that we had.
 
 ```{r cars}
 summary(cars)

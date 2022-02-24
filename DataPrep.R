@@ -1,3 +1,4 @@
 library(dplyr)
 
-read.csv("")
+heartdisease <- read.csv("./data/heart.csv")
+nutrition_health <- read.csv("./data/National_Nutrition_Health.csv")

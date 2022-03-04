@@ -11,17 +11,20 @@ knitr::opts_chunk$set(echo = TRUE)
 
 When thinking about the potential causes of heart disease, people must understand that there are a few common factors that will lead to it. One of those are hereditary and another has to do with choices made by at the personal level, such as that of dietary choices. One of the points of data that we had.
 
-```{r cars}
-summary(cars)
+Researchers from UCI collected the data of people who had experienced a heart disease as seen below and 
+``` { echo = FALSE}
+read('DataPrep.R')
+```
+```{r DataPrep}
+
+plot(UCIPlot)
 ```
 
 ## Including Plots
 
 You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 

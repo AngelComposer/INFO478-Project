@@ -9,24 +9,32 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Heart Disease
 
+```{r include = FALSE}
+library(dplyr)
+library(ggplot2)
+
+heartdisease <- read.csv("./data/heart.csv")
+nutrition_health <- read.csv("./data/National_Nutrition_Health.csv")
+UCIData <- read.csv("./data/heart_disease_uci.csv")
+UCIData2 <- read.csv("./data/heart_cleveland_upload.csv")
+UCIPlot <- ggplot(UCIData, aes(age, chol))+geom_point()
+```
 When thinking about the potential causes of heart disease, people must understand that there are a few common factors that will lead to it. One of those are hereditary and another has to do with choices made by at the personal level, such as that of dietary choices. One of the points of data that we had.
 
-Researchers from UCI collected the data of people who had experienced a heart disease as seen below and 
-``` { echo = FALSE}
-read('DataPrep.R')
-```
-```{r DataPrep}
+Researchers from UCI collected the data of people who had experienced a heart disease as seen below and the correlation between having differing cholestoral and age differences. As seen, There is a higher amount of people who experience heart disease and also are of an older age.
+
+```{r warning = FALSE}
 
 plot(UCIPlot)
 ```
 
-## Including Plots
+``` {r include = FALSE}
+cpgraph <- ggplot(data = UCIData2, aes(x = cp, y= ))+geom_bar()
 
-You can also embed plots, for example:
+```
 
+Below, we can also see the different amounts of people who have experienced different chest pains. It was easier to count up the amounts of people who experienced different chest pain, but in this case, 0 = typical angina, 1 = atypical angina, 2 = non-anginal pain, and 2 = asymptomatic. As we can see, there were more people who experienced asymptomatic pain and had a heart diesase compared to typical, atypical and non-anginal pain.
 
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
-
-
-
+```{r warning = FALSE}
+plot(cpgraph)
+```

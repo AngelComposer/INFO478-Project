@@ -74,5 +74,78 @@ hypertensions_stats_age <- hypertensions_stats %>%
   select(1,3)
 
 hypertensions_stats_age <- hypertensions_stats_age %>%
-  group_by(hypertensions_stats_age$Break_Out) %>%
-  summarize(mean = mean(hypertensions_stats_age$Data_Value_Alt))
+  group_by(Break_Out) %>%
+  na.omit()
+
+hypertensions_stats_age <- hypertensions_stats_age %>%
+  aggregate(by = list(hypertensions_stats_age$Break_Out),
+            FUN = "mean")
+
+
+#coronary heart disease
+
+heart_disease <- nutrition_health %>% 
+  filter(nutrition_health$Topic == "Coronary Heart Disease")
+
+heart_disease <- heart_disease %>%
+  select(3,4,7)
+
+#heart disease stats
+heart_disease_stats <- nutrition_health %>% 
+  filter(nutrition_health$Topic == "Coronary Heart Disease") %>%
+  select(3,6,8,9)
+
+heart_disease_stats <- heart_disease_stats %>%
+  filter(heart_disease_stats$Indicator == "Prevalence of coronary heart disease among US adults (20+); NHANES") %>%
+  select(2:4)
+
+#age 
+heart_disease_stats_age <- heart_disease_stats %>%
+  filter(heart_disease_stats$Break_Out_Category == "Age") %>%
+  select(1,3)
+
+heart_disease_stats_age <- heart_disease_stats_age %>%
+  group_by(Break_Out) %>%
+  na.omit()
+
+heart_disease_stats_age <- heart_disease_stats_age %>%
+  aggregate(by = list(heart_disease_stats_age$Break_Out),
+            FUN = "mean")
+
+#make into a nice table
+heart_disease_stats_age <- heart_disease_stats_age %>%
+  select(1,2) 
+
+#gender
+heart_disease_stats_gender <- heart_disease_stats %>%
+  filter(heart_disease_stats$Break_Out_Category == "Gender") %>%
+  select(1,3)
+
+heart_disease_stats_gender <- heart_disease_stats_gender %>%
+  group_by(Break_Out) %>%
+  na.omit()
+
+heart_disease_stats_gender <- heart_disease_stats_gender %>%
+  aggregate(by = list(heart_disease_stats_gender$Break_Out),
+            FUN = "mean")
+
+#make into a nice table
+heart_disease_stats_gender <- heart_disease_stats_gender %>%
+  select(1,2) 
+
+#race
+heart_disease_stats_race <- heart_disease_stats %>%
+  filter(heart_disease_stats$Break_Out_Category == "Race") %>%
+  select(1,3)
+
+heart_disease_stats_race <- heart_disease_stats_race %>%
+  group_by(Break_Out) %>%
+  na.omit()
+
+heart_disease_stats_race <- heart_disease_stats_race %>%
+  aggregate(by = list(heart_disease_stats_race$Break_Out),
+            FUN = "mean")
+
+#make into a nice table
+heart_disease_stats_race <- heart_disease_stats_race %>%
+  select(1,2) 

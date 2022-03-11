@@ -87,8 +87,25 @@ analysis_conclusion <- tabPanel(
   
   mainPanel(
     
-    p("paragraph 1"),
-    p("paragraph 2")
+    p("The most important conclusions we came to find were that populations
+      with higher cholestorol were much more likely to suffer from 
+      cardiovascular disease, as were those of older age. The effects of aging
+      on heart disease were notable throughout our data analysis, as we expected
+      given the compounding effect of lifestyle choices and environmental factors
+      over the years. High cholestorol being associated with higher levels of 
+      heart disease was also to be expected, as cholestorol levels can generally
+      be used as a placeholder for diet, and thus, populations with unhealthier
+      diets were also more likely to suffer from heart disease."),
+    p("We also found various population statistics, with one of the more noatble
+      ones looking at cardiovascular disease in both males and females. Finding
+      that men were twice as likely to suffer from heart disease was unexpected,
+      as we did not have a standout reason as to why. Furthermore, we also found
+      that individuals who experienced chest pain were less likely to suffer
+      from heart disease, which seemed somewhat counterintuitive, yet the 
+      correlation was firm."),
+    p("Ultimately, our findings helped us understand some of the correlating
+      factors associated with heart disease and we hope it can be an
+      educational resource for others as well.")
   )
 )
 

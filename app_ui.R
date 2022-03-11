@@ -24,11 +24,21 @@ overview_page <- tabPanel(
       of heart disease. We hope that the general adult population can use
       this as a resource to help gain clarity on how various factors are 
       associated with heart disease and cardiac mortality."),
-    p("Heart disease consistently ranks as one of the top causes of premature
+    p("Understanding heart disease as a whole is complex, however, education on 
+      the topic is of vital importance because of its deadly track record.
+      Heart disease consistently ranks as one of the top causes of premature
       death in the United States, killing well over half a million people a 
       year. According to the CDC, 1 in 4 deaths are the result of cardiovascular
       disease in the US. Given how deadly heart disease is, we sought to create
-      a resource that analyzes some of the correlating factors.")
+      a resource that analyzes some of the correlating factors."),
+    p("Ultimately, many of the factors associated with cardivascular disease
+      are genetic, but lifestyle choices can play an important role as well.
+      In this report, we analyze some of these factos, such as cholestorol
+      levels, the impact of hypertension, age, and so forth. Our report also 
+      delves into some population statistics in order to paint a more complete 
+      picture of the matter, in order to not ignore the demographic and 
+      socioeconomic factors that play a vital role in understanding the impacts
+      of heart disease on various populations.")
   )
 )
 

@@ -45,7 +45,7 @@ overview_page <- tabPanel(
 interactive_pg_1<- tabPanel(
   "Model 1",
   
-  titlePanel("Insert Title"),
+  titlePanel("Age Data"),
   
   sidebarLayout(
     sidebarPanel(
@@ -54,8 +54,11 @@ interactive_pg_1<- tabPanel(
   
     mainPanel(
       # graphs
-      # plotlyOutput(outputId = "")
-      p("paragraph 1"),
+       plotlyOutput(outputId = "graph"),
+      p("As seen some of the contributing factors to heart desease become more prevelant in 
+        older people. FOr example, cholestoral seems to rise with older people compared to younger 
+        people. Another thing to notice is people who are younger than 30 typically do not show any 
+        sort of signs that could lead to heart disease."),
       p("paragraph 2")
     )
   )

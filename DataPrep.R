@@ -149,3 +149,4 @@ heart_disease_stats_race <- heart_disease_stats_race %>%
 #make into a nice table
 heart_disease_stats_race <- heart_disease_stats_race %>%
   select(1,2) 
+

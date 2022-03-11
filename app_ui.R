@@ -20,8 +20,15 @@ overview_page <- tabPanel(
   titlePanel("Introduction"),
   
   mainPanel(
-    p("paragraph 1"),
-    p("paragraph 2")
+    p("The main focus of this project is analyzing the correlating factors 
+      of heart disease. We hope that the general adult population can use
+      this as a resource to help gain clarity on how various factors are 
+      associated with heart disease and cardiac mortality."),
+    p("Heart disease consistently ranks as one of the top causes of premature
+      death in the United States, killing well over half a million people a 
+      year. According to the CDC, 1 in 4 deaths are the result of cardiovascular
+      disease in the US. Given how deadly heart disease is, we sought to create
+      a resource that analyzes some of the correlating factors.")
   )
 )
 

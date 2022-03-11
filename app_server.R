@@ -2,9 +2,13 @@
 library(ggplot2)
 library(tidyr)
 library(dplyr)
-#library(ggplotly)
+library(plotly)
 
-hd <- read.csv("./data/heartdisease.csv")
+heartdisease <- read.csv("./data/heart.csv")
+nutrition_health <- read.csv("./data/National_Nutrition_Health.csv")
+UCIData <- read.csv("./data/heart_disease_uci.csv")
+UCIData2 <- read.csv("./data/heart_cleveland_upload.csv")
+UCIPlot <- ggplot(UCIData, aes(age, chol))+geom_point()
 
 server <- function(input, output) {
   # graph 1
@@ -22,15 +26,10 @@ server <- function(input, output) {
    # })
 
   # Graph 1
-     #output$graph <- renderPlotly({
-       graph <- ggplot(hd) +
-         geom_polygon(hd, 
-           mapping = aes_string("ï..age", y = "chol",
-                                       fill = hd$chol)
-         ) +
-        ggtitle("Age Data")
-       plot(graph)
-     #})
+     output$graph_one <- renderPlotly({
+       graph_one <- UCIPlot
+       ggplotly(graph_one)
+     })
        
        
        

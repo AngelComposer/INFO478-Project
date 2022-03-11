@@ -1,17 +1,17 @@
 # data
 
 # widgets
-chart_widget <- selectInput(
-  inputId = "variable_name",
-  label = "label",
-  # choices = list of choices
-)
-
-emission_type <- radioButtons(
-  inputId = "variable_name",
-  label = "label",
-  # choices = list of choices
-)
+# chart_widget <- selectInput(
+#   inputId = "variable_name",
+#   label = "label",
+#   # choices = list of choices
+# )
+# 
+# emission_type <- radioButtons(
+#   inputId = "variable_name",
+#   label = "label",
+#   # choices = list of choices
+# )
 
 # pages
 overview_page <- tabPanel(
@@ -54,7 +54,7 @@ interactive_pg_1<- tabPanel(
   
     mainPanel(
       # graphs
-       plotlyOutput(outputId = "graph"),
+      plotlyOutput(outputId = "graph_one"),
       p("As seen some of the contributing factors to heart desease become more prevelant in 
         older people. FOr example, cholestoral seems to rise with older people compared to younger 
         people. Another thing to notice is people who are younger than 30 typically do not show any 

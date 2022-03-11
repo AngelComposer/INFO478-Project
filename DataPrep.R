@@ -150,3 +150,4 @@ heart_disease_stats_race <- heart_disease_stats_race %>%
 heart_disease_stats_race <- heart_disease_stats_race %>%
   select(1,2) 
 
+write.csv(heartdisease, "./data/heartdisease.csv")

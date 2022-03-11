@@ -43,7 +43,7 @@ overview_page <- tabPanel(
 )
 
 interactive_pg_1<- tabPanel(
-  "Model 1",
+  "Age",
   
   titlePanel("Age Data"),
   
@@ -65,9 +65,9 @@ interactive_pg_1<- tabPanel(
 )
 
 interactive_pg_2 <- tabPanel(
-  "Model 2",
+  "Chest Pain",
   
-  titlePanel("insert Title"),
+  titlePanel("Chest Pain"),
   
   sidebarLayout(
     sidebarPanel(
@@ -75,10 +75,14 @@ interactive_pg_2 <- tabPanel(
     ),
     
     mainPanel(
-      # graphs
-      # plotlyOutput(outputId = "")
-      p("paragraph 1"),
-      p("paragraph 2")
+      plotlyOutput(outputId = "graph_two"),
+      p("From the plot, we can also see the different amounts of people who have
+        experienced different chest pains. It was easier to count up the amounts
+        of people who experienced different chest pain, but in this case,
+        0 = typical angina, 1 = atypical angina, 2 = non-anginal pain, and
+        3 = asymptomatic. As we can see, there were more people who experienced
+        asymptomatic pain and had a heart diesase compared to typical, atypical
+        and non-anginal pain.")
     )
   )
 )

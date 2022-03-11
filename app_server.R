@@ -9,6 +9,7 @@ nutrition_health <- read.csv("./data/National_Nutrition_Health.csv")
 UCIData <- read.csv("./data/heart_disease_uci.csv")
 UCIData2 <- read.csv("./data/heart_cleveland_upload.csv")
 UCIPlot <- ggplot(UCIData, aes(age, chol))+geom_point()
+cpgraph <- ggplot(data = UCIData2, aes(x = cp, y= ))+geom_bar()
 
 server <- function(input, output) {
   # graph 1
@@ -30,22 +31,12 @@ server <- function(input, output) {
        graph_one <- UCIPlot
        ggplotly(graph_one)
      })
-       
-       
-       
+
   # graph 2
-  #   output$graph <- renderPlotly({
-  #     graph <- ggplot(data) +
-  #       geom_polygon(
-  #         mapping = aes_string(x = "", y = "", group = "",
-  #                              fill = input$(from widget)),
-  #         color = "", size = ) +
-  #       ggtitle("title") +
-  #       blank_theme +
-  #       easy_center_title() +
-  #     
-  #     ggplotly(graph)
-  #  })
+    output$graph_two <- renderPlotly({
+      graph_two <- cpgraph
+      ggplotly(graph_two)
+   })
 
 # other values
   # output$variable_name <- renderText({
